@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OTG-automationreports/static/css/main.79eb261d.css",
+    "main.js": "/OTG-automationreports/static/js/main.2cded588.js",
+    "index.html": "/OTG-automationreports/index.html",
+    "main.79eb261d.css.map": "/OTG-automationreports/static/css/main.79eb261d.css.map",
+    "main.2cded588.js.map": "/OTG-automationreports/static/js/main.2cded588.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79eb261d.css",
+    "static/js/main.2cded588.js"
+  ]
+}
