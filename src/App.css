@@ -1,0 +1,76 @@
+th,
+.header {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App {
+  text-align: center;
+}
+
+.App.file-uploaded {
+  max-width: 90%;
+}
+
+.tdrule {
+  height: 0px;
+  width: 100%;
+  background-color: #acabab;
+  padding: 1px;
+}
+
+.statusTd {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.name-th {
+  position: absolute;
+  left: 80px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+  margin-right: 40px;
+}
+
+.O {
+  position: relative;
+  bottom: 32px;
+}
+
+.G {
+  position: relative;
+  bottom: -32px;
+}
+
+.test-log-item{
+  margin: 8px;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.passed-step{
+  background-color: #03bf03;
+}
+
+.skipped-step{
+ background-color: #cfe2ff;
+}
+
+.failed-step{
+  background-color: #58151c;
+}
+
+ul {
+  list-style-type: "⦆"; /* Unicode star character */
+}

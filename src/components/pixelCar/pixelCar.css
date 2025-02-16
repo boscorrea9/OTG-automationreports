@@ -1,0 +1,53 @@
+.car-container {
+    position: relative;
+    top: 8px;
+    /* display: none; */
+}
+
+.car-body {
+    background: red;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-radius: 5px;
+    clip-path: polygon(3% 107%, 105% 100%, 61% 18%, 10% 0);
+}
+
+.car-window {
+    background: lightblue;
+    width: 68px;
+    height: 23px;
+    position: absolute;
+    top: -11px;
+    left: 13px;
+    border-radius: 2px;
+    clip-path: polygon(33% 104%, 111% 142%, 99% 0, 10% 0);
+}
+
+.car-engine {
+    background: darkgray;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+
+.back-wheel {
+    left: 20px;
+}
+
+.car-wheel {
+    background: #3c3c3c;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+}
+
+.front-wheel {
+    left: 64px;
+}
